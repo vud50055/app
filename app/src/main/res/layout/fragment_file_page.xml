@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".file_page">
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="180dp"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/bt_File_LuuGiaTriDo"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:text="Lưu giá trị đo"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bt_File_MoFileDaLuu"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:text="Mở file đã lưu"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/bt_File_XoaHetFileDaLuu"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:text="Xóa hết file đã lưu"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/bt_File_LuuGiaTriRaUSB"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:text="Lưu giá trị ra USB"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</FrameLayout>

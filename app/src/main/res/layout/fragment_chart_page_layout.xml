@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chart_page_layout">
+
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="180dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:gravity="center_vertical"
+            android:text="Chế độ hiển thị:"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical"
+            android:text="Chọn trục X:"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical"
+            android:text="Dạng đồ thị:"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bt_Chart_Luu"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:text="Lưu"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/bt_Chart_TuyenTinhHoa"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:text="Tuyến tính hóa"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="500dp"
+        android:orientation="vertical"
+        >
+        <Spinner
+            android:id="@+id/sp_Chart_DisplayMode"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:entries="@array/Chart_DisplayMode"
+            />
+        <Spinner
+            android:id="@+id/sp_Chart_AxisXSelect"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:entries="@array/Chart_AxisXSelect"
+            />
+        <Spinner
+            android:id="@+id/sp_Chart_AxisXType"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:entries="@array/Chart_AxisXType"
+            />
+    </LinearLayout>
+
+</FrameLayout>

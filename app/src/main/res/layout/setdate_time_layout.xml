@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="520dp"
+        android:layout_height="320dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="500dp"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_Dialog_Hour"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="2dp"
+                android:text="Hour" />
+
+            <EditText
+                android:id="@+id/edt_Dialog_Hour"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="5dp"
+                android:inputType="number"
+                android:text="12" />
+
+            <TextView
+                android:id="@+id/tv_Dialog_Minute"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:text="Minute" />
+
+            <EditText
+                android:id="@+id/edt_Dialog_Minute"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="5dp"
+                android:inputType="number"
+                android:text="15" />
+
+            <TextView
+                android:id="@+id/tv_Dialog_Second"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:text="Second" />
+
+            <EditText
+                android:id="@+id/edt_Dialog_Second"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="5dp"
+                android:inputType="number"
+                android:text="00" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="500dp"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_Dialog_Day"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:text="Day" />
+
+            <EditText
+                android:id="@+id/edt_Dialog_Day"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="5dp"
+                android:inputType="number"
+                android:text="29" />
+
+            <TextView
+                android:id="@+id/tv_Dialog_Month"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:text="Month" />
+
+            <EditText
+                android:id="@+id/edt_Dialog_Month"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="5dp"
+                android:inputType="number"
+                android:text="12" />
+
+            <TextView
+                android:id="@+id/tv_Dialog_Year"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:text="Year" />
+
+            <EditText
+                android:id="@+id/edt_Diaglog_Year"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="5dp"
+                android:inputType="number"
+                android:text="2023" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="500dp"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bt_Dialog_Cancel"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:text="Cancel" />
+
+            <Button
+                android:id="@+id/bt_Dialog_OK"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="100dp"
+                android:text="OK" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">AppDataLogger</string>
+
+    <string-array name="Setting_SampleRateMode">
+        <item>Tự động</item>
+        <item>Thủ công</item>
+        <item>Lặp lại</item>
+    </string-array>
+    <string-array name="Setting_TimeMeasure">
+        <item>Không thiết lập</item>
+        <item>100ms</item>
+        <item>200ms</item>
+        <item>1s</item>
+        <item>2s</item>
+        <item>5s</item>
+        <item>5m</item>
+        <item>15m</item>
+        <item>20m</item>
+    </string-array>
+    <string-array name="Setting_SampleRate">
+        <item>5ms</item>
+        <item>10ms</item>
+        <item>20ms</item>
+        <item>50ms</item>
+        <item>100ms</item>
+        <item>200ms</item>
+        <item>500ms</item>
+        <item>1s</item>
+        <item>2s</item>
+    </string-array>
+
+    <string-array name="Chart_DisplayMode">
+        <item>Đồ thị</item>
+        <item>Bảng</item>
+        <item>Đồng hồ số</item>
+    </string-array>
+
+    <string-array name="Chart_AxisXSelect">
+        <item>N</item>
+        <item>t</item>
+    </string-array>
+
+    <string-array name="Chart_AxisXType">
+        <item>Zoom</item>
+        <item>Dịch trục</item>
+    </string-array>
+
+    <string-array name="Shutdown_NgonNgu">
+        <item>Tiếng Việt</item>
+        <item>Tiếng Anh</item>
+    </string-array>
+
+    <string-array name="Shutdown_Diaglog_Hour">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+    </string-array>
+
+    <string-array name="Shutdown_Diaglog_Month">
+        <item>Tháng 1</item>
+        <item>Tháng 2</item>
+        <item>Tháng 3</item>
+        <item>Tháng 4</item>
+        <item>Tháng 5</item>
+        <item>Tháng 6</item>
+        <item>Tháng 7</item>
+        <item>Tháng 8</item>
+        <item>Tháng 9</item>
+        <item>Tháng 10</item>
+        <item>Tháng 11</item>
+        <item>Tháng 12</item>
+    </string-array>
+
+
+</resources>
